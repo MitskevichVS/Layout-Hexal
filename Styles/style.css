@@ -5,12 +5,6 @@ body {
 	margin: 0 auto;
 }
 
-.container {
-	width: 820px;
-	margin: 0 auto;
-	position: relative;
-}
-
 div {
 	box-sizing: border-box;
 }
@@ -156,11 +150,13 @@ h3 {
 	padding-right: 17px;
 	text-align: justify;
 }
+
 .social-icons {
 	position: absolute;
 	top: 217px;
 	right: 23px;
 }
+
 .social-icons a{
 	display: inline-block;
 	margin-right: -4px;
@@ -176,4 +172,31 @@ button {
 	font-family: Lato, sans-serif;
 	text-transform: uppercase;
 	border: 0;
+}
+
+.footer-form {
+	height: 564px;
+	width: 100%;
+	background-color: #323232;
+	display: block;
+	position: relative;
+}
+
+.copyright {
+	height: 43px;
+	width: 100%;
+	background-color: #222;
+	position: inherit;
+	bottom: 0;
+}
+
+h6 {
+	margin: 0;
+	display: block;
+	color: #3c3c3c;
+	font-family: MavenPro, sans-serif;
+	font-size: 10px;
+	padding-top: 17px;
+	padding-left: 40px;
+	letter-spacing: 0.05em;
 }
