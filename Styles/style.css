@@ -85,11 +85,11 @@ h1 {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 29px;
 	font-family: MavenPro, sans-serif; 
 	font-weight: 400;
 	margin-bottom: 0;
-	letter-spacing: 0.0001em;
+	letter-spacing: 0.01em;
 	color: #d7fcf5;
 }
 
@@ -135,8 +135,8 @@ h3 {
 	font-size: 18px;
 	font-family: MavenPro, sans-serif;
 	font-weight: 400;
-	margin-top: -3px;
-	letter-spacing: 5%;
+	margin-top: -2px;
+	letter-spacing: 0.002em;
 	color: #20816d;
 }
 
@@ -145,7 +145,7 @@ h3 {
 	font-family: Lato, sans-serif;
 	color: #d7fcf5;
 	line-height: 1.85em;
-	margin-top: -7px;
+	margin-top: -6px;
 	letter-spacing: 0.003em;
 	padding-right: 17px;
 	text-align: justify;
@@ -168,10 +168,13 @@ button {
 	height: 37px;
 	background-color: #2eb398;
 	color: #d7fcf5;
+	font-size: 12px;
 	font-weight: 700;
 	font-family: Lato, sans-serif;
 	text-transform: uppercase;
 	border: 0;
+	float: right;
+	margin-right: 290px;
 }
 
 .footer-form {
@@ -180,6 +183,75 @@ button {
 	background-color: #323232;
 	display: block;
 	position: relative;
+}
+
+.form-container {
+	display: block;
+	position: relative;
+	height: 540px;
+	width: 960px;
+	top: 13px;
+	bottom: 11px;
+	margin:0 auto;
+	border-top: 1px solid #2b2b2b;
+	border-bottom: 1px solid #2b2b2b;
+	padding-top: 48px;
+	padding-left: 75px;
+}
+
+legend {
+	color: #fff;
+	font-family: MavenPro, sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	padding: 0;
+	margin-bottom: -8px;
+	letter-spacing: 0.002em;
+}
+
+fieldset p {
+	color: #fff;
+	font-family: MavenPro, sans-serif;
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 21px;
+	margin-left: 2px;
+	letter-spacing: 0.0195em;
+}
+
+fieldset {
+	border: none;
+}
+
+fieldset input {
+	width: 568px;
+	height: 36px;
+	background-color: #454545;
+	border: none;
+	float: left;
+	padding-left: 14px;
+	margin: 0 0 16px 0;
+}
+
+input::placeholder {
+	color: #bebebe;
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+fieldset textarea {
+	width: 565px;
+	height: 140px;
+	resize: none;
+	border: none;
+	background-color: #454545;
+	color: #bebebe;
+	font-family: Lato, sans-serif;
+	letter-spacing: -0.07em;
+	padding-top: 10px;
+	padding-left: 14px;
+	margin: 0;
 }
 
 .copyright {
