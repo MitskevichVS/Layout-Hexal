@@ -157,7 +157,15 @@ h3 {
 	padding-right: 17px;
 	text-align: justify;
 }
-
+.social-icons {
+	position: absolute;
+	top: 217px;
+	right: 23px;
+}
+.social-icons a{
+	display: inline-block;
+	margin-right: -4px;
+}
 
 button {
 	display: block;
