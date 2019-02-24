@@ -1,6 +1,5 @@
 body {
 	background-color: #fff;
-	color: #d7fcf5;
 	width: 1020px;
 	height: auto;
 	margin: 0 auto;
@@ -9,6 +8,7 @@ body {
 .container {
 	width: 820px;
 	margin: 0 auto;
+	position: relative;
 }
 
 div {
@@ -78,7 +78,6 @@ div {
 }
 
 .menu a {
-	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -95,8 +94,10 @@ h1 {
 h3 {
 	font-size: 30px;
 	font-family: MavenPro, sans-serif; 
-	font-weight: normal;
-
+	font-weight: 400;
+	margin-bottom: 0;
+	letter-spacing: 0.0001em;
+	color: #d7fcf5;
 }
 
 .hex-container {
@@ -104,10 +105,59 @@ h3 {
 }
 
 .info {
+	position: relative;
+	display: block;
 	background: #2eb398;
 	height: 340px;
 	width: 100%;
 }
+
+.info-container {
+	position: absolute;
+	display: block;
+	width: 820px;
+	height: 315px;
+	left: 50%;
+	margin-left: -410px;
+	top: 15px;
+	border-left: 1px solid #219d84;
+	border-right: 1px solid #219d84;
+}
+
+.info-container article {
+	display: block;
+	position: absolute;
+	top: 55px;
+	left: 20px;
+}
+
+.info-text {
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 218px;
+}
+
+.info-author-description {
+	font-size: 18px;
+	font-family: MavenPro, sans-serif;
+	font-weight: 400;
+	margin-top: -3px;
+	letter-spacing: 5%;
+	color: #20816d;
+}
+
+.info-decription {
+	font-size: 12px;
+	font-family: Lato, sans-serif;
+	color: #d7fcf5;
+	line-height: 1.85em;
+	margin-top: -7px;
+	letter-spacing: 0.003em;
+	padding-right: 17px;
+	text-align: justify;
+}
+
 
 button {
 	display: block;
