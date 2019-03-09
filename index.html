@@ -11,8 +11,9 @@
 <body>
 	<header class="navigation">
 		<h1>Hexagons</h1>
-		<div class="main-container">
 			<nav>
+				<div class="dot1">
+				</div>
 				<div class="menu">
 					<div class="menu-item1">
 						<a href="#portfolio" class="nav-first">portfolio</a>
@@ -30,10 +31,11 @@
 						<a href="#get-in-touch">get in touch</a>
 					</div>
 				</div>
+				<div class="dot1">
+				</div>
 			</nav>
 				<div class="second-triangle"></div>
 				<div class="trianle"></div>
-		</div>
 	</header>
 	<main>
 		<section class="hex-container" id="portfolio">
@@ -41,30 +43,51 @@
 			<div class="hex-edge">
 			</div>
 			<div class="slider">
-				<div class="first-group-hexagons">
-					<div class="hexagons-local-edge">
+				<input type="radio" id="one" name="slide">
+				<input type="radio" id="two" name="slide">
+				<input type="radio" id="three" name="slide" checked>
+				<input type="radio" id="four" name="slide">
+				<input type="radio" id="five" name="slide">
+				<input type="radio" id="six" name="slide">
+				<div class="slides slide1"></div>
+				<div class="slides slide2"></div>
+				<div class="slides slide3">
+					<div class="first-group-hexagons">
+						<div class="hexagons-local-edge">
+						</div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-1"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-2"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-3"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-4"></div></div></div>
 					</div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-1"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-2"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-3"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-4"></div></div></div>
-					
-				</div>
-				<div class="second-group-hexagons">
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-5"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-6"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-7"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-8"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-9"></div></div></div>
-				</div>
-				<div class="third-group-hexagons">
-					<div class="hexagons-local-edge">
+					<div class="second-group-hexagons">
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-5"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-6"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-7"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-8"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-9"></div></div></div>
 					</div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-10"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-11"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-12"></div></div></div>
-					<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-13"></div></div></div>
+					<div class="third-group-hexagons">
+						<div class="hexagons-local-edge">
+						</div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-10"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-11"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-12"></div></div></div>
+						<div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex-img-13"></div></div></div>
+					</div>
 				</div>
+				<div class="slides slide4"></div>
+				<div class="slides slide5"></div>
+				<div class="slides slide6"></div>
+					<div class="controls">
+						<label for="one"></label>
+						<label for="two"></label>
+						<label for="three"></label>
+						<label for="four"></label>
+						<label for="five"></label>
+						<label for="six"></label>
+					</div>
+
 			</div>
 		</section>
 		<section class="info">
@@ -74,14 +97,26 @@
 						<div class="info-text">
 							<h3>Smith Anderson</h3>
 							<p class="info-author-description">Illustrator & Character Designer</p>
-							<p class="info-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon-cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+							<p class="info-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon-cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
 						<div class="social-icons">
-							<a href="https://www.facebook.com/" target="_blank"><img src="Styles/img/Facebook.png" alt=""></a>
-							<a href="https://twitter.com/" target="_blank"><img src="Styles/img/Twitter.png" alt=""></a>
-							<a href="https://plus.google.com/?hl=ru" target="_blank"><img src="Styles/img/Google.png" alt=""></a>
-							<a href="https://www.pinterest.com/" target="_blank"><img src="Styles/img/Pinterest.png" alt=""></a>
-							<a href="https://www.linkedin.com/" target="_blank"><img src="Styles/img/Linkedin.png" alt=""></a>
-							<a href="https://dribbble.com/" target="_blank"><img src="Styles/img/Dribbble.png" alt=""></a>
+							<div class="facebook">
+							<a href="https://www.facebook.com/" target="_blank"></a>
+							</div>
+							<div class="twitter">
+							<a href="https://twitter.com/" target="_blank"></a>
+							</div>
+							<div class="google">
+							<a href="https://plus.google.com/?hl=ru" target="_blank"></a>
+							</div>
+							<div class="pinterest">
+							<a href="https://www.pinterest.com/" target="_blank"></a>
+							</div>
+							<div class="linkedin">
+							<a href="https://www.linkedin.com/" target="_blank"></a>
+							</div>
+							<div class="dribbble">
+							<a href="https://dribbble.com/" target="_blank"></a>
+							</div>
 						</div>
 					</div>
 					</article>
@@ -98,9 +133,9 @@
 						<input type="text" placeholder="Name (Required)" required>
 						<input type="email" placeholder="Email (Required)" required>
 						<input type="text" placeholder="Subject">
-						<textarea name="message" id="user-message" cols="30" rows="10">Write your message here...</textarea>
+						<label for="user-message"><textarea name="message" id="user-message" placeholder="Write your message here..." cols="30"	rows="10"></textarea></label>
 					</fieldset>
-						<button class="button-submit" type="submit">send</button>
+					<button class="button-submit" type="submit">send</button>
 				</form>
 				<div class="additional-info">
 					<p><strong>Quisque Hendrerit:</strong> purus dapi-bus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
