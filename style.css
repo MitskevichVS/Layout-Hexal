@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: url('assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Maven Pro';
+	font-style: normal;
+	font-weight: 400;
+	src: url('assets/fonts/MavenPro-Regular.ttf');
+}
+
 body {
 	background-color: #fff;
 	width: 1020px;
@@ -199,55 +213,55 @@ h2 {
 }
 
 .hex-img-1{
-	background: url('img/Hexagon6.png') 56% 88%;
+	background: url('assets/img/Hexagon6.png') 56% 88%;
 }
 
 .hex-img-2{
-	background: url('img/Hexagon5.png') 52% 71%;
+	background: url('assets/img/Hexagon5.png') 52% 71%;
 }
 
 .hex-img-3{
-	background: url('img/Hexagon8.png') 49% 42%;
+	background: url('assets/img/Hexagon8.png') 49% 42%;
 }
 
 .hex-img-4{
-	background: url('img/Hexagon7.png') 49% 145%;
+	background: url('assets/img/Hexagon7.png') 49% 145%;
 }
 
 .hex-img-5{
-	background: url('img/Hexagon12.png') 50% 96%;
+	background: url('assets/img/Hexagon12.png') 50% 96%;
 }
 
 .hex-img-6{
-	background: url('img/Hexagon11.png') 49% 107%;
+	background: url('assets/img/Hexagon11.png') 49% 107%;
 }
 
 .hex-img-7{
-	background: url('img/Hexagon13.png') 48% 56%;
+	background: url('assets/img/Hexagon13.png') 48% 56%;
 }
 
 .hex-img-8{
-	background: url('img/Hexagon10.png') 47% 51%;
+	background: url('assets/img/Hexagon10.png') 47% 51%;
 }
 
 .hex-img-9{
-	background: url('img/Hexagon9.png') 54% 60%;
+	background: url('assets/img/Hexagon9.png') 54% 60%;
 }
 
 .hex-img-10{
-	background: url('img/Hexagon2.png') 48% 52%;
+	background: url('assets/img/Hexagon2.png') 48% 52%;
 }
 
 .hex-img-11{
-	background: url('img/Hexagon1.png') 48% 44%;
+	background: url('assets/img/Hexagon1.png') 48% 44%;
 }
 
 .hex-img-12{
-	background: url('img/Hexagon4.png') 47% 45%;
+	background: url('assets/img/Hexagon4.png') 47% 45%;
 }
 
 .hex-img-13{
-	background: url('img/Hexagon3.png') 22% 40%;
+	background: url('assets/img/Hexagon3.png') 22% 40%;
 }
 
 .first-group-hexagons{
@@ -298,7 +312,7 @@ h2 {
 	height: 541px;
 	margin-top: 5%;
 	margin-left: 7%;
-	background-image: url("img/dino.jpg");
+	background-image: url('assets/img/dino.jpg');
 }
 
 .slider label {
@@ -359,7 +373,7 @@ article {
 }
 
 .author-img {
-	background: url('img/Author.png') 49%;
+	background: url('assets/img/Author.png') 49%;
 }
 
 .info-text {
@@ -401,11 +415,11 @@ article {
 .facebook {
 	width: 25px;
 	height: 24px;
-	background-image: url('img/Facebook.png');
+	background-image: url('assets/img/Facebook.png');
 }
 
 .facebook:hover {
-	background: #fff url('img/Facebook_color_logo.png');
+	background: #fff url('assets/img/Facebook_color_logo.png');
 	transition: 0.5s;
 	cursor: pointer;
 }
@@ -413,11 +427,11 @@ article {
 .twitter {
 	width: 25px;
 	height: 24px;
-	background-image: url('img/Twitter.png');
+	background-image: url('assets/img/Twitter.png');
 }
 
 .twitter:hover {
-	background: #fff url('img/twitter_color_logo.png');
+	background: #fff url('assets/img/twitter_color_logo.png');
 	transition: 0.5s;
 	cursor: pointer;
 }
@@ -425,11 +439,11 @@ article {
 .google {
 	width: 25px;
 	height: 24px;
-	background-image: url('img/Google.png');
+	background-image: url('assets/img/Google.png');
 }
 
 .google:hover {
-	background: #fff url('img/google_color_logo.png');
+	background: #fff url('assets/img/google_color_logo.png');
 	transition: 0.5s;
 	cursor: pointer;
 }
@@ -437,11 +451,11 @@ article {
 .pinterest {
 	width: 24px;
 	height: 24px;
-	background-image: url('img/Pinterest.png');
+	background-image: url('assets/img/Pinterest.png');
 }
 
 .pinterest:hover {
-	background: #fff url('img/pinterest_color_logo.png');
+	background: #fff url('assets/img/pinterest_color_logo.png');
 	transition: 0.5s;	
 	cursor: pointer;
 }
@@ -449,11 +463,11 @@ article {
 .linkedin {
 	width: 24px;
 	height: 24px;
-	background-image: url('img/Linkedin.png');	
+	background-image: url('assets/img/Linkedin.png');
 }
 
 .linkedin:hover {
-	background: #fff url('img/linkedin_color_logo.png');
+	background: #fff url('assets/img/linkedin_color_logo.png');
 	transition: 0.5s;	
 	cursor: pointer;
 }
@@ -461,11 +475,11 @@ article {
 .dribbble {
 	width: 24px;
 	height: 24px;
-	background-image: url('img/Dribbble.png');		
+	background-image: url('assets/img/Dribbble.png');
 }
 
 .dribbble:hover {
-	background: #fff url('img/dribble_color_logo.png');
+	background: #fff url('assets/img/dribble_color_logo.png');
 	transition: 0.5s;	
 	cursor: pointer;
 }
